@@ -53,7 +53,7 @@ const NavBar = () => {
           <ul
             className={`${
               showNav ? "block" : "hidden"
-            } max-lg:flex-1 absolute left-0 w-full bg-white flex-col justify-center items-center gap-16`}
+            } max-lg:flex-1 absolute z-10 left-0 w-full bg-white flex-col justify-center items-center gap-16`}
           >
             <li onClick={toggleNav} className="font-montserrat leading-normal text-lg w-full border-b-2 cursor-pointer">Shop</li>
             <li onClick={toggleNav} className="font-montserrat leading-normal text-lg w-full border-b-2 cursor-pointer">Subscribe</li>
