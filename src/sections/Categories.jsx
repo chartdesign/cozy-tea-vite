@@ -2,7 +2,7 @@ import { cozyTea_01, cozyTea_02, cozyTea_03 } from "../assets/images";
 
 const Categories = () => {
   return (
-    <section className="text-center bg-secondary-tan">
+    <section className="text-center bg-secondary-tan border-b border-light-green">
       <div className="flex flex-col md:flex-row">
         <div className="w-full md:w-1/3 drop-shadow-xl">
           <img
