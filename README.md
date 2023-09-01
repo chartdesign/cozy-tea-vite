@@ -1,4 +1,4 @@
-This is an e-commerce site that sells rare tea. Using it to show developer skills
+This is an e-commerce site that sells rare tea. Using it to show developer skills. This will be a work in progress.
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
