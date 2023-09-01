@@ -4,14 +4,15 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="w-full md:flex flex-column md:flex-row justify-center items-center min-h-fit gap-10 bg-primary border-b border-light-green"
+      className="w-full flex justify-center items-center max-xl:flex-col-reverse gap-10 bg-primary border-b border-light-green"
     >
-      <div className="w-full md:w-1/2">
-        <div className="drop-shadow-xl">
+      <div className="w-full md:w-1/3 p-12 py-24 ">
+        <div className="flex-1 drop-shadow-xl ">
           <img
             src={cozyTea_04}
             alt="Image 2"
-            className="w-full md:h-full p-5 max-h-[500px] object-contain"
+            
+            className="object-contain w-full rounded-xl"
           />
         </div>
       </div>
