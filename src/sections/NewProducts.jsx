@@ -1,6 +1,6 @@
 import React from "react";
 import ProductCard from "../components/ProductCard";
-import { cozyTea_01, cozyTea_02, cozyTea_03 } from "../assets/images";
+import { cozyTea_01, cozyTea_02, cozyTea_03, cozyTea_09, cozyTea_10, cozyTea_11 } from "../assets/images";
 
 const NewProducts = () => {
   return (
@@ -9,7 +9,7 @@ const NewProducts = () => {
         <p className="text-center text-dark-green">Browse our newest products</p>
       <div class="mx-auto grid max-w-6xl  grid-cols-1 gap-6 p-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
         <ProductCard
-          imageSrc={cozyTea_01}
+          imageSrc={cozyTea_09}
           altText="Image 1"
           description={
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -17,7 +17,7 @@ const NewProducts = () => {
           teaName="Nigrosian"
         />
         <ProductCard
-          imageSrc={cozyTea_02}
+          imageSrc={cozyTea_10}
           altText="Image 1"
           description={
             <p>
@@ -28,13 +28,13 @@ const NewProducts = () => {
           teaName="Ginger Tea"
         />
         <ProductCard
-          imageSrc={cozyTea_03}
+          imageSrc={cozyTea_11}
           altText="Image 1"
           description="Description for Image 1"
           teaName="Rooibios"
         />
         <ProductCard
-          imageSrc={cozyTea_02}
+          imageSrc={cozyTea_09}
           altText="Image 1"
           description={
             <p>

@@ -1,11 +1,11 @@
-import { cozyTea_01, cozyTea_02, cozyTea_03 } from "../assets/images";
+import { cozyTea_01, cozyTea_02, cozyTea_03, cozyTea_09 } from "../assets/images";
 import CategoryCard from "../components/CategoryCard";
 
 const Categories = () => {
   return (
     <section className="text-center bg-secondary-tan border-b border-light-green">
       <div className="flex flex-col md:flex-row">
-        <CategoryCard imageSrc={cozyTea_03} altText="test 1" description="Single" />
+        <CategoryCard imageSrc={cozyTea_09} altText="test 1" description="Single" />
         
         <div className="w-full md:w-1/3 drop-shadow-xl">
           <img

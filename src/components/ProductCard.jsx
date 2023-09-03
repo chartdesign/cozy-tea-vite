@@ -7,7 +7,7 @@ const ProductCard = ({ imageSrc, altText, description, teaName }) => {
       <a href="#">
         <div className="relative flex items-end overflow-hidden rounded-xl">
           <img src={imageSrc} alt={altText} />
-          <div className="flex items-center space-x-1.5 rounded-lg bg-blue-500 px-4 py-1.5 text-white duration-100 hover:bg-blue-600"></div>
+          
         </div>
 
         <div className="mt-1 p-2 text-center">
