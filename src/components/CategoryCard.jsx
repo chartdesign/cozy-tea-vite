@@ -5,7 +5,7 @@ const CategoryCard = ({ imageSrc, altText, description }) => {
     <article className="rounded-xl bg-dark-tan p-3 shadow-lg hover:shadow-xl hover:transform hover:scale-105 duration-300 ">
       <a href="#">
         <div className="relative flex items-end overflow-hidden rounded-xl">
-          <img src={imageSrc} alt={altText} />
+          <img className="object-fill" src={imageSrc} alt={altText} />
           
         </div>
 

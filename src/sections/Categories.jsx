@@ -1,4 +1,4 @@
-import { cozyTea_01, cozyTea_02, cozyTea_03, cozyTea_09 } from "../assets/images";
+import { cozyTea_01, cozyTea_02, cozyTea_03, cozyTea_09, teaImg_01 } from "../assets/images";
 import CategoryCard from "../components/CategoryCard";
 
 const Categories = () => {
@@ -9,9 +9,9 @@ const Categories = () => {
         
         <div className="w-full md:w-1/3 drop-shadow-xl">
           <img
-            src={cozyTea_01}
+            src={teaImg_01}
             alt="Image 1"
-            className="w-full md:h-full p-5  max-h-[400px] object-contain "
+            className="w-96 h-48 object-fill mx-auto"
           />
           <p>Single Teas</p>
         </div>

@@ -9,6 +9,7 @@ import cozyTea_08 from "./cozyTea_08.jpg";
 import cozyTea_09 from "./cozyTea_09.png";
 import cozyTea_10 from "./cozyTea_10.png";
 import cozyTea_11 from "./cozyTea_11.png";
+import teaImg_01 from "./teaImg_01.svg"
 import justInWP from "./justInWP.png"
 
 export {
@@ -23,5 +24,6 @@ export {
   cozyTea_09,
   cozyTea_10,
   cozyTea_11,
-  justInWP
+  justInWP,
+  teaImg_01
 };
